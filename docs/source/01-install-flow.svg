@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820">
+  <rect width="1440" height="820" fill="#F7F8F5"/>
+  <style>
+    text { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17211D; }
+    .title { font-size: 42px; font-weight: 700; }
+    .sub { font-size: 22px; fill: #51605A; }
+    .step { font-size: 25px; font-weight: 700; }
+    .body { font-size: 19px; fill: #4C5954; }
+    .num { font-size: 22px; font-weight: 700; fill: #FFFFFF; }
+    .tiny { font-size: 17px; fill: #69756F; }
+    .on-dark { fill: #FFFFFF; }
+    .on-dark-muted { fill: #DDE4E0; }
+  </style>
+  <text x="72" y="86" class="title">把“谢小树 Skill”装进智能体，只需 5 步</text>
+  <text x="72" y="128" class="sub">适合第一次安装 Skill 的用户 · 全程不需要写代码</text>
+
+  <g transform="translate(72,190)">
+    <rect width="240" height="390" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#146B55"/>
+    <text x="38" y="50" class="num" text-anchor="middle">1</text>
+    <rect x="28" y="96" width="184" height="112" rx="8" fill="#E7F2EE"/>
+    <path d="M75 130h90v48H75z" fill="#FFFFFF" stroke="#146B55" stroke-width="3"/>
+    <path d="M82 139h74M82 150h58M82 161h66" stroke="#146B55" stroke-width="3" stroke-linecap="round"/>
+    <text x="28" y="254" class="step">复制安装地址</text>
+    <text x="28" y="292" class="body">复制完整 GitHub 链接，</text>
+    <text x="28" y="324" class="body">不要遗漏最后的</text>
+    <text x="28" y="356" class="body">/xie-xiaoshu</text>
+  </g>
+
+  <path d="M324 385h44" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M359 374l13 11-13 11" fill="none" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(384,190)">
+    <rect width="240" height="390" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#146B55"/>
+    <text x="38" y="50" class="num" text-anchor="middle">2</text>
+    <rect x="28" y="96" width="184" height="112" rx="8" fill="#FEF1E8"/>
+    <path d="M62 128h116v58H62z" fill="#FFFFFF" stroke="#D66A32" stroke-width="3"/>
+    <path d="M75 145h90M75 158h72" stroke="#D66A32" stroke-width="3" stroke-linecap="round"/>
+    <path d="M155 177l25 16-6-22" fill="#FFFFFF" stroke="#D66A32" stroke-width="3" stroke-linejoin="round"/>
+    <text x="28" y="254" class="step">发给智能体</text>
+    <text x="28" y="292" class="body">把“安装指令 + 链接”</text>
+    <text x="28" y="324" class="body">一起发给 Codex、</text>
+    <text x="28" y="356" class="body">Hermes 或 WorkBuddy</text>
+  </g>
+
+  <path d="M636 385h44" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M671 374l13 11-13 11" fill="none" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(696,190)">
+    <rect width="240" height="390" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#146B55"/>
+    <text x="38" y="50" class="num" text-anchor="middle">3</text>
+    <rect x="28" y="96" width="184" height="112" rx="8" fill="#EEF0F8"/>
+    <path d="M120 118l52 23v34c0 23-24 36-52 43-28-7-52-20-52-43v-34z" transform="translate(0,-12)" fill="#FFFFFF" stroke="#4C5F9E" stroke-width="3"/>
+    <path d="M98 149l16 16 31-36" fill="none" stroke="#4C5F9E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="28" y="254" class="step">同意安装</text>
+    <text x="28" y="292" class="body">看到“允许访问网络”</text>
+    <text x="28" y="324" class="body">或“允许安装”时，</text>
+    <text x="28" y="356" class="body">点允许 / Continue</text>
+  </g>
+
+  <path d="M948 385h44" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M983 374l13 11-13 11" fill="none" stroke="#AAB4AF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(1008,190)">
+    <rect width="240" height="390" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#146B55"/>
+    <text x="38" y="50" class="num" text-anchor="middle">4</text>
+    <rect x="28" y="96" width="184" height="112" rx="8" fill="#E7F2EE"/>
+    <path d="M81 131a51 51 0 1 1-8 57" fill="none" stroke="#146B55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M65 157l5 34 33-8" fill="none" stroke="#146B55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="28" y="254" class="step">新建对话</text>
+    <text x="28" y="292" class="body">安装成功后，新开一个</text>
+    <text x="28" y="324" class="body">任务；如果没生效，</text>
+    <text x="28" y="356" class="body">完全退出后重新打开</text>
+  </g>
+
+  <g transform="translate(384,625)">
+    <rect width="864" height="120" rx="8" fill="#17211D"/>
+    <circle cx="52" cy="60" r="25" fill="#E4A73B"/>
+    <text x="52" y="68" class="num" text-anchor="middle">5</text>
+    <text x="94" y="50" font-size="24" font-weight="700" class="on-dark">输入 $xie-xiaoshu 开始使用</text>
+    <text x="94" y="84" font-size="18" class="on-dark-muted">例如：$xie-xiaoshu 请每次只问我一个问题，帮我梳理这段关系。</text>
+  </g>
+  <text x="72" y="790" class="tiny">提示：不同软件的按钮名称可能稍有不同；只要看到“允许 / 继续 / 安装”，确认即可。</text>
+</svg>

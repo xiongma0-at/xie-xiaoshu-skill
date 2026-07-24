@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="940" viewBox="0 0 1440 940">
+  <rect width="1440" height="940" fill="#F7F8F5"/>
+  <style>
+    text { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17211D; }
+    .title { font-size: 42px; font-weight: 700; }
+    .sub { font-size: 21px; fill: #59655F; }
+    .node-title { font-size: 22px; font-weight: 700; }
+    .node-body { font-size: 18px; fill: #56635D; }
+    .yes { font-size: 17px; font-weight: 700; fill: #146B55; }
+    .no { font-size: 17px; font-weight: 700; fill: #B24F2C; }
+    .on-dark { fill: #FFFFFF; }
+    .on-dark-muted { fill: #DDE4E0; }
+  </style>
+  <text x="72" y="84" class="title">安装失败时，按这张图排查</text>
+  <text x="72" y="126" class="sub">从上往下看，找到与你屏幕上最接近的情况。</text>
+
+  <rect x="460" y="174" width="520" height="102" rx="8" fill="#17211D"/>
+  <text x="720" y="216" text-anchor="middle" font-size="24" font-weight="700" class="on-dark">智能体有没有明确说“安装成功”？</text>
+  <text x="720" y="250" text-anchor="middle" font-size="17" class="on-dark-muted">只回复“我看到了链接”不算安装成功</text>
+
+  <path d="M720 276v68" stroke="#AAB4AF" stroke-width="3"/>
+  <path d="M720 344H362v48M720 344h358v48" fill="none" stroke="#AAB4AF" stroke-width="3"/>
+  <text x="382" y="332" class="no">没有</text>
+  <text x="1034" y="332" class="yes">有</text>
+
+  <rect x="112" y="392" width="500" height="138" rx="8" fill="#FEF1E8" stroke="#E6C3B3" stroke-width="2"/>
+  <text x="148" y="432" class="node-title">它说“无法访问 / 无法安装”</text>
+  <text x="148" y="472" class="node-body">重新发送“安装指令 + 完整链接”；</text>
+  <text x="148" y="505" class="node-body">出现网络或文件权限时点“允许”。</text>
+
+  <rect x="828" y="392" width="500" height="138" rx="8" fill="#E7F2EE" stroke="#B9D4CA" stroke-width="2"/>
+  <text x="864" y="432" class="node-title">新任务里能否调用？</text>
+  <text x="864" y="472" class="node-body">输入：$xie-xiaoshu 帮我分析……</text>
+  <text x="864" y="505" class="node-body">看回复是否采用逐步提问的方式。</text>
+
+  <path d="M362 530v66" stroke="#AAB4AF" stroke-width="3"/>
+  <path d="M1078 530v66" stroke="#AAB4AF" stroke-width="3"/>
+
+  <rect x="112" y="596" width="500" height="152" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+  <text x="148" y="638" class="node-title">仍然失败：让它临时读取</text>
+  <text x="148" y="678" class="node-body">请读取仓库中的 SKILL.md 和 references，</text>
+  <text x="148" y="711" class="node-body">并在当前对话中严格按这些规则回答。</text>
+
+  <rect x="828" y="596" width="500" height="152" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+  <text x="864" y="638" class="node-title">安装成功但没触发</text>
+  <text x="864" y="678" class="node-body">完全退出智能体后重新打开；新建任务；</text>
+  <text x="864" y="711" class="node-body">消息第一行明确写 $xie-xiaoshu。</text>
+
+  <path d="M362 748v60h716v-60" fill="none" stroke="#AAB4AF" stroke-width="3"/>
+  <rect x="398" y="808" width="644" height="78" rx="8" fill="#EEF0F8"/>
+  <text x="720" y="856" text-anchor="middle" font-size="20" font-weight="700" fill="#3E4F86">仍解决不了：把报错原文或截图发给懂技术的人</text>
+  <text x="72" y="918" class="sub">不要反复乱点。保存完整报错文字，排查会快很多。</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="980" viewBox="0 0 1440 980">
+  <rect width="1440" height="980" fill="#F7F8F5"/>
+  <style>
+    text { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17211D; }
+    .title { font-size: 42px; font-weight: 700; }
+    .sub { font-size: 21px; fill: #59655F; }
+    .label { font-size: 18px; font-weight: 700; }
+    .chat { font-size: 20px; }
+    .small { font-size: 17px; fill: #65716B; }
+    .on-dark { fill: #FFFFFF; }
+  </style>
+  <text x="72" y="84" class="title">Codex 安装聊天示意图</text>
+  <text x="72" y="126" class="sub">照着发送这句话即可。界面样式可能变化，文字内容不变。</text>
+
+  <rect x="72" y="170" width="1296" height="708" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+  <rect x="72" y="170" width="1296" height="72" rx="8" fill="#17211D"/>
+  <circle cx="111" cy="206" r="8" fill="#E36C5C"/>
+  <circle cx="137" cy="206" r="8" fill="#E4A73B"/>
+  <circle cx="163" cy="206" r="8" fill="#4FA27E"/>
+  <text x="720" y="215" text-anchor="middle" font-size="19" font-weight="700" class="on-dark">新任务</text>
+
+  <text x="1180" y="300" class="label" fill="#146B55">你发送</text>
+  <rect x="370" y="322" width="914" height="184" rx="8" fill="#E7F2EE"/>
+  <text x="410" y="368" class="chat">请从这个 GitHub 地址安装并启用 Skill：</text>
+  <text x="410" y="410" class="chat" font-weight="700">https://github.com/xiongma0-at/xie-xiaoshu-skill/</text>
+  <text x="410" y="446" class="chat" font-weight="700">tree/main/xie-xiaoshu</text>
+  <rect x="1132" y="456" width="112" height="32" rx="6" fill="#146B55"/>
+  <text x="1188" y="479" text-anchor="middle" font-size="16" class="on-dark">发送</text>
+
+  <text x="156" y="570" class="label" fill="#D66A32">Codex 回复</text>
+  <rect x="156" y="592" width="914" height="174" rx="8" fill="#FEF1E8"/>
+  <circle cx="196" cy="636" r="22" fill="#D66A32"/>
+  <path d="M186 636l7 8 15-19" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="236" y="632" class="chat" font-weight="700">已安装 xie-xiaoshu</text>
+  <text x="236" y="674" class="chat">请新建一个任务，然后用 $xie-xiaoshu 调用。</text>
+  <text x="236" y="718" class="small">如果中途出现权限确认，请先点“允许”再等待安装完成。</text>
+
+  <rect x="156" y="806" width="1128" height="1" fill="#D7DDD9"/>
+  <text x="156" y="844" class="small">安装完成的判断标准：回复里明确出现“已安装”“安装成功”或“Installed”。</text>
+  <text x="72" y="930" class="sub">注意：不要只发一个链接。把“请安装并启用 Skill”也一起发出去，智能体才知道你要做什么。</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="980" viewBox="0 0 1440 980">
+  <rect width="1440" height="980" fill="#F7F8F5"/>
+  <style>
+    text { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; fill: #17211D; }
+    .title { font-size: 42px; font-weight: 700; }
+    .sub { font-size: 21px; fill: #59655F; }
+    .label { font-size: 18px; font-weight: 700; }
+    .chat { font-size: 20px; }
+    .small { font-size: 17px; fill: #65716B; }
+  </style>
+  <text x="72" y="84" class="title">安装后，第一次这样用</text>
+  <text x="72" y="126" class="sub">先说发生了什么，再说明你希望它怎么陪你聊。</text>
+
+  <rect x="72" y="170" width="1296" height="700" rx="8" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="2"/>
+  <text x="1180" y="236" class="label" fill="#146B55">你发送</text>
+  <rect x="280" y="258" width="1004" height="218" rx="8" fill="#E7F2EE"/>
+  <text x="320" y="304" class="chat" font-weight="700">$xie-xiaoshu</text>
+  <text x="320" y="350" class="chat">我总想离开这段关系，但他一冷淡我又很痛苦。</text>
+  <text x="320" y="392" class="chat">请不要急着给结论，每次只问我一个问题，</text>
+  <text x="320" y="434" class="chat">帮我看清自己真正害怕失去的是什么。</text>
+
+  <text x="156" y="548" class="label" fill="#D66A32">Skill 回复示意</text>
+  <rect x="156" y="570" width="1004" height="196" rx="8" fill="#FEF1E8"/>
+  <text x="196" y="620" class="chat">先不急着决定离开还是留下。</text>
+  <text x="196" y="666" class="chat">当他一冷淡，你最先冒出来的感受是什么：</text>
+  <text x="196" y="712" class="chat" font-weight="700">“我不被爱了”，还是“我被抛下了”，或是别的？</text>
+
+  <rect x="156" y="806" width="1128" height="1" fill="#D7DDD9"/>
+  <text x="156" y="844" class="small">你不需要一次说完整。回答它当前问的一个问题，慢慢往下聊即可。</text>
+  <text x="72" y="928" class="sub">关键：每次开头写 $xie-xiaoshu，能让智能体更稳定地调用这个 Skill。</text>
+</svg>
