@@ -1,7 +1,7 @@
 interface:
   display_name: "谢小树人生洞察"
   short_description: "基于课程材料梳理关系、成长、核心需求与现实选择"
-  default_prompt: "使用 $xie-xiaoshu，基于课程材料先对我的问题做一次完整、编号式的深度拆解：解释关键词、现实因素、体验与防御、关系循环、核心需求和可行行动，最后再问关键问题；不要只给简短概括。"
+  default_prompt: "使用 $xie-xiaoshu，基于课程材料对我的问题做一次适度详细、编号式的拆解：抓住关键词，讲透最相关的心理动力和关系循环，给出可行行动，最后再问关键问题；普通问题控制在约 500-700 字。"
 
 policy:
   allow_implicit_invocation: true
